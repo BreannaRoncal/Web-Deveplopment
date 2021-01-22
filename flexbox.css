@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+.container {
+  padding: 1rem;
+}
+
+.container ul {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding: 1rem;
+  list-style: none;
+  text-align: center;
+}
+
+.container li {
+  margin: 0.5rem;
+}
+
+.container a {
+  color: white;
+  text-decoration: none;
+}
+
+.container a:hover {
+  color: dodgerblue;
+}
+
+@media screen and (min-width: 768px) {
+  .container ul {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}

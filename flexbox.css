@@ -1,3 +1,8 @@
+/* Create a responsive navigation bar that uses FlexBox. This was designed with the mobile-first approach.
+   The navbar will arranged in 1 column with 5 items when screen size is less than 768px (mobile screens)
+   The navbar will be arranged in 1 row with 5 items when screen size is more than 768px (tablets and wider screens)
+*/
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.5rem;

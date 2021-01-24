@@ -1,0 +1,112 @@
+.container {
+  display: grid;
+
+  grid-template: repeat(5, 100px) / repeat(2, 100);
+  grid-template-areas:
+    "header header"
+    "main1 aside"
+    "main2 aside"
+    "main3 aside"
+    "footer footer";
+}
+
+header,
+section,
+figure,
+figcaption,
+aside,
+footer {
+  display: block;
+  margin: 20px;
+  background-color: dodgerblue;
+  border-radius: 5px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+nav li {
+  list-style-type: none;
+}
+nav li a {
+  text-decoration: none;
+  color: white;
+  margin-right: 1rem;
+}
+
+header {
+  grid-area: header;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  color: white;
+}
+body {
+  background-color: rgba(32, 141, 250, 0.247);
+  font: times;
+}
+
+.html {
+  float: left;
+  grid-area: main1;
+}
+
+.css {
+  float: left;
+  grid-area: main2;
+}
+.js {
+  float: left;
+  grid-area: main3;
+}
+
+figure img {
+  width: 500px;
+  height: 500px;
+  display: inline;
+  float: left;
+  margin: 10px;
+}
+
+figcaption {
+  display: inline;
+  float: right;
+}
+
+.html img {
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+  margin-left: -20px;
+}
+.css img {
+  width: 130px;
+  height: auto;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.js img {
+  width: 300px;
+  height: auto;
+  margin: -50px -50px -60px -70px;
+}
+
+aside {
+  float: rightss;
+  grid-area: aside;
+  background-color: gold;
+  padding: 20px;
+}
+
+footer {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  grid-area: footer;
+  text-align: center;
+}

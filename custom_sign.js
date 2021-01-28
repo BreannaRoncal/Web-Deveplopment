@@ -1,3 +1,5 @@
+/* When the user inputs a new name and greeting, then presses the submit button, this will update the page */
+
 var elm_greeting = document.getElementById("greeting");
 var elm_name = document.getElementById("name");
 

@@ -1,0 +1,43 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 20px 200px;
+  text-align: center;
+  background-color: lightsalmon;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+div {
+  margin: 5px;
+}
+.get_info {
+  position: center;
+  background-color: lavender;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.custom_sign {
+  background-color: lightblue;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+label {
+  display: block;
+}
+
+.output {
+  text-transform: capitalize;
+}
+
+.time_date {
+  display: inline;
+}
+
+.spacer {
+  margin-bottom: 20px;
+}

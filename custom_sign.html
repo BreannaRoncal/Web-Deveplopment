@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="custom_sign.css" />
+    <title>My Custom Greeting</title>
+  </head>
+  <body>
+    <h1>Create Your Own Custom Greeting</h1>
+    <!-- Customize sign for user-->
+    <div class="container">
+      <div class="get_info">
+        <form>
+          <div class="spacer">
+            <label for="get_greeting">Greeting</label>
+            <input id="get_greeting" type="text" placeholder="Enter Greeting" />
+          </div>
+          <div>
+            <label for="get_name"> Name</label>
+            <input id="get_name" type="text" placeholder="Enter name" />
+          </div>
+          <button id="submit_info" type="button" onclick="updateSign()">
+            Submit
+          </button>
+        </form>
+      </div>
+      <!-- Apply custimization for user-->
+      <div class="custom_sign">
+        <div id="greeting" class="output">Greetings and Salutations</div>
+        <div id="name" class="output">Friend!</div>
+        <hr />
+        <label for="time"><b>Time: </b></label>
+        <div class="spacer" id="time">11:11</div>
+        <label for="date"><b>Today is: </b></label>
+        <div id="date">11/11/1111</div>
+      </div>
+    </div>
+
+    <!-- JavaScript Code to change name-->
+    <script src="custom_sign.js"></script>
+  </body>
+</html>

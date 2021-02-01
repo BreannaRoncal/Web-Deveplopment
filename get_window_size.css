@@ -1,0 +1,18 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-image: url(images/sanddune.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  background-color: lightyellow;
+  border-radius: 10px;
+  margin: 3rem 20rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.info {
+  margin-bottom: 2rem;
+}
